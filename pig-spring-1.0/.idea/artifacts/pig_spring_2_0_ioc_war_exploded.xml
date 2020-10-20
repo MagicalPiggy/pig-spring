@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pig-spring-2.0-ioc:war exploded">
+    <output-path>$PROJECT_DIR$/../pig-spring-2.0-ioc/target/pig-spring-2.0-ioc</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>pig-spring-2.0-ioc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pig-spring-2.0-ioc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../pig-spring-2.0-ioc/target/pig-spring-2.0-ioc/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="pig-spring-2.0-ioc/web/Web" />
+    </root>
+  </artifact>
+</component>

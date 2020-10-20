@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pig-spring-2.0-ioc:war">
+    <output-path>$PROJECT_DIR$/../pig-spring-2.0-ioc/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pig-spring-2.0-ioc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pig-spring-2.0-ioc.war">
+      <element id="artifact" artifact-name="pig-spring-2.0-ioc:war exploded" />
+    </root>
+  </artifact>
+</component>

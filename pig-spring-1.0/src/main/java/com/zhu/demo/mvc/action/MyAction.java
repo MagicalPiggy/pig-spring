@@ -1,10 +1,10 @@
 package com.zhu.demo.mvc.action;
 
 import com.zhu.demo.mvc.service.IDemoService;
-import com.zhu.mvcframework.annotation.PIGAutowired;
-import com.zhu.mvcframework.annotation.PIGController;
-import com.zhu.mvcframework.annotation.PIGRequestMapping;
-import com.zhu.mvcframework.annotation.PIGRequestParam;
+import com.zhu.framework.annotation.PIGAutowired;
+import com.zhu.framework.annotation.PIGController;
+import com.zhu.framework.annotation.PIGRequestMapping;
+import com.zhu.framework.annotation.PIGRequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
